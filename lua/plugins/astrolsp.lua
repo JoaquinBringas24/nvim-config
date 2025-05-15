@@ -56,6 +56,8 @@ return {
         capabilities = {},
       },
       Cmake = {filetypes = {"cmake", "CMakeLists.txt"}},
+      tflint = {filetypes = {"tf", "tfvars", "terraform", "terraform-vars"}},
+      terraformls = {filetypes = {"tf", "tfvars", "terraform", "terraform-vars"}},
 lua_ls = {
 
   settings = {
